@@ -9,27 +9,25 @@ To develop a python control code to move the mobilerobot along the predefined pa
 
 ## Procedure
 
-Step1:Predefine the path as a series of waypoints (coordinates) the robot needs to follow
+Step1:Use form robomaster import robotuse import roboto
 
 <br/>
 
-Step2:Initialize the robot's hardware interface (e.g., motor controllers, sensors).
-Use libraries like RoboPy, ROS, or custom motor control code to send movement commands.
-
-
-<br/>
-
-Step3:Use a control algorithm (e.g., Proportional Navigation, PID Controller) to guide the robot to each waypoint.
-
-<br/>
-
-Step4:Use sensors like LIDAR or ultrasonic sensors to detect obstacles.
+Step2:Choose the X,Y,Z- axis movement distance(meters)
 
 
 <br/>
 
-Step5:Simulate the robot's movement in a virtual environment (e.g., Gazebo, Webots) before deploying it in the real world.
-Test the robot on the predefined path and fine-tune parameters like speed, turning radius, and sensor thresholds.
+Step3:Give ep_chassis.move to move straight
+
+<br/>
+
+Step4:Give time.sleep() for a break
+
+
+<br/>
+
+Step5:Give ep_chassis.drive_speed to have to have a circular movement
 
 <br/>
 
