@@ -9,23 +9,27 @@ To develop a python control code to move the mobilerobot along the predefined pa
 
 ## Procedure
 
-Step1:
+Step1:Predefine the path as a series of waypoints (coordinates) the robot needs to follow
 
 <br/>
 
-Step2:
+Step2:Initialize the robot's hardware interface (e.g., motor controllers, sensors).
+Use libraries like RoboPy, ROS, or custom motor control code to send movement commands.
+
 
 <br/>
 
-Step3:
+Step3:Use a control algorithm (e.g., Proportional Navigation, PID Controller) to guide the robot to each waypoint.
 
 <br/>
 
-Step4:
+Step4:Use sensors like LIDAR or ultrasonic sensors to detect obstacles.
+
 
 <br/>
 
-Step5:
+Step5:Simulate the robot's movement in a virtual environment (e.g., Gazebo, Webots) before deploying it in the real world.
+Test the robot on the predefined path and fine-tune parameters like speed, turning radius, and sensor thresholds.
 
 <br/>
 
@@ -159,6 +163,7 @@ Insert image here
 Upload your video in Youtube and paste your video-id here
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+https://youtu.be/envVzg8cvsM?si=11W81GzAhi-w9ez3
 
 <br/>
 <br/>
